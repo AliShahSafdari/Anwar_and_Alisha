@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+
+}
+
+nav {
+    display: inline-block;
+    /* background-color: blue; */
+    margin-top: 10px;
+    /* display: flex; */
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.logo {
+    /* background-color: aqua; */
+    /* display: flex; */
+    display: inline-block;
+    margin-top: 15px;
+    width: 49.5%;
+    position: relative;
+    /* padding-left: 20px; */
+    /* padding-bottom: 20px */
+}
+
+
+.logo>img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    /* padding-left: 20px;
+    padding-bottom: 20px;
+    /* margin-left */
+    /* : 20px; */
+}
+
+
+ul {
+    /* display: inline; */
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: inline;
+    margin-left: 20px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: underline
+}
+
+li {
+    list-style: none;
+    text-align: -webkit-match-parent;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+}
+
+h2 {
+    max-width: 300px;
+    width: 100%;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#submit {
+    border: olive;
+    padding: 0 20px;
+    margin-top: 10px;
+    background-color: yellow;
+    color: black;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#features .icon {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 15vw;
+    padding-left: 60px;
+    margin-left: 10%;
+    color: darkorange;
+}
+
+#features .desc {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 50vw;
+    padding: 5px;
+}
+
+.grid {
+    padding: 0 20px;
+}
+
+#how-it-works {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+ol li {
+    display: block;
+    margin-top: 2px;
+}
+
+.level {
+    background-color: rgb(221, 221, 221);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.product>button {
+    background-color: rgb(241, 196, 15);
+    font-weight: 400;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    margin: 15px 0px;
+    padding: 4px;
+}
+
+footer {
+    direction: rtl;
+    margin: 0% 15%;
+    background-color: rgb(221, 221, 221);
+    padding-bottom: 10px;
+}
+
+@font-face {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Circular-Loom';
+
+    src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Book.woff2') format('woff2');
+}
+
+@font-face {
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Circular-Loom';
+
+    src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Circular-Loom';
+
+    src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'Circular-Loom';
+
+    src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Black.woff2') format('woff2');
+}
