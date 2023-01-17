@@ -194,6 +194,11 @@ ol li {
     padding: 4px;
 }
 
+#new {
+    color: aqua;
+    font-size: 1em;
+}
+
 footer {
     direction: rtl;
     margin: 0% 15%;
