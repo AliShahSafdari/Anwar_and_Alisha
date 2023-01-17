@@ -146,6 +146,10 @@ h2 {
     display: flex;
     justify-content: center;
 }
+#btn{
+    padding: 8px;
+    font-size: 12px;
+}
 
 #pricing {
     margin-top: 60px;
